@@ -4,6 +4,9 @@
   --main-color: #212121;
   --secondary-color: #2196f3;
 }
+html {
+  box-sizing: border-box;
+}
 
 body {
   font-family: var(--main-font);
@@ -30,6 +33,7 @@ p {
 
 img{
   display: block;
+  max-width: 100%;
 }
 /*podłączyć te klasy*/
 .list {
@@ -43,14 +47,15 @@ img{
 
 .container {
   width: 1200px;
-  margin: 0 auto;
-  padding:0 15px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
-
 /*========HEADER========*/
 
 .header .container{
-  display:flex;
+  display: flex;
   align-items: center;
   width: 1600px;
   border-bottom: 1px solid #ECECEC;
@@ -134,9 +139,13 @@ img{
 /*========END HEADER========*/
 
 /*========MAIN========*/
-.background .container {
+.background {
   background-color: #2f303a;
-  width:1600px;
+  width: 1600px;
+  max-height: 600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
 }
 
 .background-header {
@@ -147,17 +156,16 @@ img{
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-  margin-left:auto;
-  margin-right:auto;
-  width:1600px;
-  padding: 200px 452px 30px 452px;
+  max-width: 696px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  
 }
 
 .background-button {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
-  display: block;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
@@ -165,11 +173,10 @@ img{
   border-radius: 4px;
   color: white;
   background-color: var(--secondary-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  margin-left:auto;
-  margin-right:auto;
-  padding:10px 41px;
-  margin-bottom:200px;
+  display: inline-block;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 32px;
 }
 
 .background-button:hover,
@@ -188,8 +195,6 @@ img{
 .container{
   width:1200px;
   padding:5px;
-  margin-left:auto;
-  margin-right:auto;
 }
 
 .features .container {
@@ -419,7 +424,8 @@ img{
 }
 
 .projects-nav .container{
-  width:1600px
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .projects-nav {
   margin-bottom: 94px;
@@ -429,13 +435,13 @@ img{
   flex-wrap:wrap;
   list-style:none;
   justify-content: center;
-  margin-left:-30px;
-  margin-top:-30px;
   flex-basis: calc(100% / 3 - 30px);
+  margin-bottom: 50px;
 }
 
 .pic{
-  margin-right:0;
+  margin-left: -40px;
+  
 }
 
 .portfolio-title {
@@ -447,7 +453,9 @@ img{
   margin: 0;
   padding-top: 20px;
   padding-bottom: 4px;
-  padding-left: 24px
+  padding-left: 24px;
+  border-left: 1px solid #EEEEEE;
+  border-right: 1px solid #EEEEEE;
 }
 
 .portfolio-description {
@@ -459,4 +467,6 @@ img{
   padding-left: 24px;
   padding-bottom: 20px;
   border-bottom: 1px solid #EEEEEE;
+  border-left: 1px solid #EEEEEE;
+  border-right: 1px solid #EEEEEE;
 }
