@@ -141,7 +141,7 @@ img{
 /*========MAIN========*/
 .background {
   background-color: #2f303a;
-  width: 1600px;
+  max-width: 1600px;
   max-height: 600px;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -259,7 +259,7 @@ img{
 }
 .team .container{
   background-color: #F5F4FA;
-  width:1600px;
+  max-width:1600px;
 }
 .team-list{
   display: flex;
