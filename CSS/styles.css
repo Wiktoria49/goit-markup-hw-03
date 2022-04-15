@@ -257,9 +257,9 @@ img{
   margin-bottom: 94px;
   
 }
-.team .container{
+.team {
   background-color: #F5F4FA;
-  max-width:1600px;
+  max-width: 1600px;
 }
 .team-list{
   display: flex;
