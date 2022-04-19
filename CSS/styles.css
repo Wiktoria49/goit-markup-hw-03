@@ -146,6 +146,7 @@ img{
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
+  margin: 0 auto;
 }
 
 .background-header {
@@ -177,6 +178,7 @@ img{
   border: none;
   border-radius: 4px;
   padding: 10px 32px;
+  margin: 0 auto;
 }
 
 .background-button:hover,
@@ -260,6 +262,7 @@ img{
 .team {
   background-color: #F5F4FA;
   max-width: 1600px;
+  margin: 0 auto;
 }
 .team-list{
   display: flex;
@@ -282,7 +285,7 @@ img{
   margin:0;
   height:368px;
   background-color: #FFFFFF;
-  
+  margin: 0 auto;
 }
 .team-name {
   font-size: 16px;
@@ -313,6 +316,7 @@ img{
 .footer .container {
   background-color: #2f303a;
   width: 1600px;
+  margin: 0 auto;
 }
 
 .footer-logo {
@@ -408,6 +412,7 @@ img{
   padding:6px 22px 6px 22px;
   margin-bottom:56px;
   margin-top:94px;
+  margin: 0 auto;
 }
 
 .menu-button:not(:last-child){
